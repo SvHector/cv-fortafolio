@@ -1,0 +1,12 @@
+body {
+    scroll-behavior: smooth;
+}
+header {
+    background: linear-gradient(to right, #1c1c1c, #343a40);
+}
+#proyectos .card {
+    transition: transform 0.3s ease-in-out;
+}
+#proyectos .card:hover {
+    transform: scale(1.05);
+}
